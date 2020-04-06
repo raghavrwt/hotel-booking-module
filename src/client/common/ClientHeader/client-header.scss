@@ -1,0 +1,15 @@
+.client-header {
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/*for mobile*/
+@media (max-width: 764px) {
+    .client-header {
+        height: 55px;
+    }
+}

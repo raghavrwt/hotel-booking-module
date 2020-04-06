@@ -1,0 +1,30 @@
+.order-failure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    min-height: 500px;
+    .img-container {
+        width: 150px;
+        height: 150px;
+    }
+    .failed-img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .payment-title {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+    .payment-text {
+        text-align: center;
+        color: #686B79;
+    }
+    .home-btn {
+        width: 15.625rem;
+        margin: 2rem 0 0;
+        border-radius: 6px;
+    }
+}

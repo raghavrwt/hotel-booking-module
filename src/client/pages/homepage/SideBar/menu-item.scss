@@ -1,0 +1,38 @@
+@import '../../../common/colorVars.scss';
+
+.menu-item {
+    .menu-name {
+        height: 3.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1.5625rem;
+        padding-right: .625rem;
+        cursor: pointer;
+        color: $text-color;
+        &:hover {
+            color: $blue;
+        }
+    }
+    &.selected {
+        &>.menu-name {
+            color: $blue;
+            font-weight: 500;
+        }
+    }
+    .sub-menu-container {
+        padding-left: 1.5625rem;
+        transition: max-height 1s ease-out;
+        max-height: 0;
+        overflow: hidden;
+    }
+    
+    &.show-list {
+        &>.sub-menu-container {
+            max-height: 31.25rem;
+        }
+        .name-arrow {
+            transform: rotate(180deg);
+        }
+    }
+}

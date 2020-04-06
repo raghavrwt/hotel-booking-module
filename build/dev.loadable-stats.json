@@ -1,0 +1,801 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.2",
+  "hash": "0b47552dafd61ae5253a",
+  "publicPath": "",
+  "outputPath": "/home/justdial/Documents/OmniBooking/omni-bookings/dist",
+  "assetsByChunkName": {
+    "common": [
+      "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+      "dev.common.0ec8445a.js?1-VZJ-ver",
+      "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+      "dev.common.0ec8445a.js.map?1-VZJ-ver"
+    ],
+    "detail": [
+      "styles/dev.detail.0562fbdd.css?1-VZJ-ver",
+      "dev.detail.ff33d5d4.js?1-VZJ-ver",
+      "styles/dev.detail.0562fbdd.css.map?1-VZJ-ver",
+      "dev.detail.ff33d5d4.js.map?1-VZJ-ver"
+    ],
+    "error-page": [
+      "dev.error-page.61dd73ca.js?1-VZJ-ver",
+      "dev.error-page.61dd73ca.js.map?1-VZJ-ver"
+    ],
+    "homepage": [
+      "styles/dev.homepage.c49c350e.css?1-VZJ-ver",
+      "dev.homepage.df36ef39.js?1-VZJ-ver",
+      "styles/dev.homepage.c49c350e.css.map?1-VZJ-ver",
+      "dev.homepage.df36ef39.js.map?1-VZJ-ver"
+    ],
+    "listing": [
+      "styles/dev.listing.90e6e660.css?1-VZJ-ver",
+      "dev.listing.b693f257.js?1-VZJ-ver",
+      "styles/dev.listing.90e6e660.css.map?1-VZJ-ver",
+      "dev.listing.b693f257.js.map?1-VZJ-ver"
+    ],
+    "main": [
+      "styles/dev.main.f3e0070e.css?1-VZJ-ver",
+      "dev.main.2ac26f03.js?1-VZJ-ver",
+      "styles/dev.main.f3e0070e.css.map?1-VZJ-ver",
+      "dev.main.2ac26f03.js.map?1-VZJ-ver"
+    ],
+    "manifest": [
+      "dev.manifest.f1e59119.js?1-VZJ-ver",
+      "dev.manifest.f1e59119.js.map?1-VZJ-ver"
+    ],
+    "order-confirmation": [
+      "dev.order-confirmation.fe2c4acc.js?1-VZJ-ver",
+      "dev.order-confirmation.fe2c4acc.js.map?1-VZJ-ver"
+    ],
+    "vendor": [
+      "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+      "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+      "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+      "dev.vendor.13c5cb8e.js.map?1-VZJ-ver"
+    ]
+  },
+  "assets": [
+    {
+      "name": "dev.common.0ec8445a.js.map?1-VZJ-ver",
+      "size": 153694,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "dev.common.0ec8445a.js?1-VZJ-ver",
+      "size": 181809,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "dev.detail.ff33d5d4.js.map?1-VZJ-ver",
+      "size": 19894,
+      "chunks": [
+        "detail"
+      ],
+      "chunkNames": [
+        "detail"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.detail.ff33d5d4.js?1-VZJ-ver",
+      "size": 34084,
+      "chunks": [
+        "detail"
+      ],
+      "chunkNames": [
+        "detail"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.error-page.61dd73ca.js.map?1-VZJ-ver",
+      "size": 1991,
+      "chunks": [
+        "error-page"
+      ],
+      "chunkNames": [
+        "error-page"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.error-page.61dd73ca.js?1-VZJ-ver",
+      "size": 3747,
+      "chunks": [
+        "error-page"
+      ],
+      "chunkNames": [
+        "error-page"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.homepage.df36ef39.js.map?1-VZJ-ver",
+      "size": 197046,
+      "chunks": [
+        "homepage"
+      ],
+      "chunkNames": [
+        "homepage"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.homepage.df36ef39.js?1-VZJ-ver",
+      "size": 187052,
+      "chunks": [
+        "homepage"
+      ],
+      "chunkNames": [
+        "homepage"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.listing.b693f257.js.map?1-VZJ-ver",
+      "size": 33737,
+      "chunks": [
+        "listing"
+      ],
+      "chunkNames": [
+        "listing"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.listing.b693f257.js?1-VZJ-ver",
+      "size": 55225,
+      "chunks": [
+        "listing"
+      ],
+      "chunkNames": [
+        "listing"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.main.2ac26f03.js.map?1-VZJ-ver",
+      "size": 218368,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.main.2ac26f03.js?1-VZJ-ver",
+      "size": 235063,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.manifest.f1e59119.js.map?1-VZJ-ver",
+      "size": 12360,
+      "chunks": [
+        "manifest"
+      ],
+      "chunkNames": [
+        "manifest"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.manifest.f1e59119.js?1-VZJ-ver",
+      "size": 11979,
+      "chunks": [
+        "manifest"
+      ],
+      "chunkNames": [
+        "manifest"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.order-confirmation.fe2c4acc.js.map?1-VZJ-ver",
+      "size": 2405,
+      "chunks": [
+        "order-confirmation"
+      ],
+      "chunkNames": [
+        "order-confirmation"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.order-confirmation.fe2c4acc.js?1-VZJ-ver",
+      "size": 5275,
+      "chunks": [
+        "order-confirmation"
+      ],
+      "chunkNames": [
+        "order-confirmation"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+      "size": 8491715,
+      "chunks": [
+        "vendor"
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+      "size": 7782716,
+      "chunks": [
+        "vendor"
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "omni-fonts/fonts/Nunito-Bold.d66d0308.woff?1-VZJ-ver",
+      "size": 60484,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "omni-fonts/fonts/Nunito-Bold.d8c05269.woff2?1-VZJ-ver",
+      "size": 39532,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "omni-fonts/fonts/Nunito-Light.d05af4d2.woff?1-VZJ-ver",
+      "size": 59328,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "omni-fonts/fonts/Nunito-Regular.c1bce8c8.woff2?1-VZJ-ver",
+      "size": 38596,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "omni-fonts/fonts/Nunito-Regular.fc294352.woff?1-VZJ-ver",
+      "size": 59504,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "omni-fonts/fonts/Nunito-SemiBold.144e690b.woff?1-VZJ-ver",
+      "size": 60016,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "slick-carousel/slick/ajax-loader.c5cd7f53.gif?1-VZJ-ver",
+      "size": 4178,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "slick-carousel/slick/fonts/slick.b7c9e1e4.woff?1-VZJ-ver",
+      "size": 1380,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "slick-carousel/slick/fonts/slick.ced611da.eot?1-VZJ-ver",
+      "size": 2048,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "slick-carousel/slick/fonts/slick.d41f55a7.ttf?1-VZJ-ver",
+      "size": 1892,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "slick-carousel/slick/fonts/slick.f97e3bbf.svg?1-VZJ-ver",
+      "size": 2152,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+      "size": 15193,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+      "size": 9471,
+      "chunks": [
+        "common"
+      ],
+      "chunkNames": [
+        "common"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "styles/dev.detail.0562fbdd.css.map?1-VZJ-ver",
+      "size": 5617,
+      "chunks": [
+        "detail"
+      ],
+      "chunkNames": [
+        "detail"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.detail.0562fbdd.css?1-VZJ-ver",
+      "size": 3395,
+      "chunks": [
+        "detail"
+      ],
+      "chunkNames": [
+        "detail"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.homepage.c49c350e.css.map?1-VZJ-ver",
+      "size": 11805,
+      "chunks": [
+        "homepage"
+      ],
+      "chunkNames": [
+        "homepage"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.homepage.c49c350e.css?1-VZJ-ver",
+      "size": 6796,
+      "chunks": [
+        "homepage"
+      ],
+      "chunkNames": [
+        "homepage"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.listing.90e6e660.css.map?1-VZJ-ver",
+      "size": 4673,
+      "chunks": [
+        "listing"
+      ],
+      "chunkNames": [
+        "listing"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.listing.90e6e660.css?1-VZJ-ver",
+      "size": 2811,
+      "chunks": [
+        "listing"
+      ],
+      "chunkNames": [
+        "listing"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.main.f3e0070e.css.map?1-VZJ-ver",
+      "size": 51593,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.main.f3e0070e.css?1-VZJ-ver",
+      "size": 24125,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+      "size": 349099,
+      "chunks": [
+        "vendor"
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+      "size": 236873,
+      "chunks": [
+        "vendor"
+      ],
+      "chunkNames": [
+        "vendor"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "webstore/fonts/icomoon.87b0b844.eot?1-VZJ-ver",
+      "size": 98948,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "webstore/fonts/icomoon.88a6e644.woff2?1-VZJ-ver",
+      "size": 50108,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "webstore/fonts/icomoon.ba8bab80.ttf?1-VZJ-ver",
+      "size": 98784,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "webstore/fonts/icomoon.d574a7fa.svg?1-VZJ-ver",
+      "size": 380753,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "webstore/fonts/icomoon.f5ca9e90.woff?1-VZJ-ver",
+      "size": 98860,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "manifest",
+        "vendor",
+        "common",
+        "main"
+      ],
+      "assets": [
+        "dev.manifest.f1e59119.js?1-VZJ-ver",
+        "dev.manifest.f1e59119.js.map?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "styles/dev.main.f3e0070e.css?1-VZJ-ver",
+        "dev.main.2ac26f03.js?1-VZJ-ver",
+        "styles/dev.main.f3e0070e.css.map?1-VZJ-ver",
+        "dev.main.2ac26f03.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "error-page": {
+      "chunks": [
+        "manifest",
+        "vendor",
+        "common",
+        "error-page"
+      ],
+      "assets": [
+        "dev.manifest.f1e59119.js?1-VZJ-ver",
+        "dev.manifest.f1e59119.js.map?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "dev.error-page.61dd73ca.js?1-VZJ-ver",
+        "dev.error-page.61dd73ca.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "manifest",
+        "vendor",
+        "common",
+        "main"
+      ],
+      "assets": [
+        "dev.manifest.f1e59119.js?1-VZJ-ver",
+        "dev.manifest.f1e59119.js.map?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "styles/dev.main.f3e0070e.css?1-VZJ-ver",
+        "dev.main.2ac26f03.js?1-VZJ-ver",
+        "styles/dev.main.f3e0070e.css.map?1-VZJ-ver",
+        "dev.main.2ac26f03.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "error-page": {
+      "chunks": [
+        "manifest",
+        "vendor",
+        "common",
+        "error-page"
+      ],
+      "assets": [
+        "dev.manifest.f1e59119.js?1-VZJ-ver",
+        "dev.manifest.f1e59119.js.map?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "dev.error-page.61dd73ca.js?1-VZJ-ver",
+        "dev.error-page.61dd73ca.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "homepage": {
+      "chunks": [
+        "vendor",
+        "common",
+        "homepage"
+      ],
+      "assets": [
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "styles/dev.homepage.c49c350e.css?1-VZJ-ver",
+        "dev.homepage.df36ef39.js?1-VZJ-ver",
+        "styles/dev.homepage.c49c350e.css.map?1-VZJ-ver",
+        "dev.homepage.df36ef39.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "listing": {
+      "chunks": [
+        "vendor",
+        "common",
+        "listing"
+      ],
+      "assets": [
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "styles/dev.listing.90e6e660.css?1-VZJ-ver",
+        "dev.listing.b693f257.js?1-VZJ-ver",
+        "styles/dev.listing.90e6e660.css.map?1-VZJ-ver",
+        "dev.listing.b693f257.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "detail": {
+      "chunks": [
+        "vendor",
+        "common",
+        "detail"
+      ],
+      "assets": [
+        "styles/dev.vendor.01168a20.css?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js?1-VZJ-ver",
+        "styles/dev.vendor.01168a20.css.map?1-VZJ-ver",
+        "dev.vendor.13c5cb8e.js.map?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css?1-VZJ-ver",
+        "dev.common.0ec8445a.js?1-VZJ-ver",
+        "styles/dev.common.1563fb2e.css.map?1-VZJ-ver",
+        "dev.common.0ec8445a.js.map?1-VZJ-ver",
+        "styles/dev.detail.0562fbdd.css?1-VZJ-ver",
+        "dev.detail.ff33d5d4.js?1-VZJ-ver",
+        "styles/dev.detail.0562fbdd.css.map?1-VZJ-ver",
+        "dev.detail.ff33d5d4.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "order-confirmation": {
+      "chunks": [
+        "order-confirmation"
+      ],
+      "assets": [
+        "dev.order-confirmation.fe2c4acc.js?1-VZJ-ver",
+        "dev.order-confirmation.fe2c4acc.js.map?1-VZJ-ver"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}

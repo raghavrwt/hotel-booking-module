@@ -1,0 +1,20 @@
+.calendar-container {
+    .dropdown-container {
+        display:flex;
+        .location-dropdown {
+            width: 25%;
+            padding: 20px;
+        }
+        .resource-dropdown {
+            width: 40%;
+            padding: 20px;
+        }
+        .input-row {
+            width: 40%;
+            padding: 20px;
+        }
+        .fc-timeline-event .fc-title-wrap {
+            height: 100px !important;
+        }
+    }
+}

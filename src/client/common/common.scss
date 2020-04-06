@@ -1,0 +1,38 @@
+html {
+	-webkit-tap-highlight-color: transparent;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+button {
+	font-family: inherit;
+}
+body {
+	font-family: Nunito !important;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #2c323c;
+	margin: 0; //check for auto
+}
+a {
+	text-decoration: none;
+	color: unset;
+	outline: none;
+}
+.close-icon {
+	padding: 5px;
+	border-radius: 4px;
+	color: #7d7d7d;
+	height: 1.625rem;
+	width: 1.625rem;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	&:hover {
+		background: #ededed;
+	}
+}

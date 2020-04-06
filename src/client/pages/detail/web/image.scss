@@ -1,0 +1,36 @@
+.image-section {
+    .image-container {
+        height: 390px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .image-list {
+        display: flex;
+        width: 100%;
+        overflow-x: auto;
+        margin-top: .625rem;
+        margin-bottom: 1rem;
+    }
+    .list-item {
+        width: 7.5rem;
+        height: 7.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: 1px solid #ededed;
+        border-radius: 6px;
+        &.selected {
+            border: 1px solid #333;
+        }
+    }
+    .item-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

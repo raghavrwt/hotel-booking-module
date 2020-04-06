@@ -1,0 +1,114 @@
+.resource-item {
+    position: relative;
+    display: flex;
+    .left-section {
+        border-radius: 6px;
+        margin-right: .625rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ededed;
+    }
+    .resource-image {
+        max-width: 70%;
+        max-height: 70%;
+    }
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .resource-name {
+        font-weight: 500;
+    }
+    .price-container {
+        text-align: center;
+    }
+    .price {
+        font-weight: 600;
+    }
+    .rate-type {
+        font-size: 1rem;
+    }
+    .type-quantity {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 7.5rem;
+    }
+    .qty-btn {
+        font-size: 2.125rem;
+        cursor: pointer;
+    }
+    .qty {
+        margin: 1rem 0;
+        font-size: 20px;
+    }
+    &:not(:last-child):after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: calc(100% - 2rem);
+        border-bottom: 1px solid #ededed;
+    }
+}
+
+/*for desktop*/
+@media (min-width: 764px) {
+    .resource-item {
+        padding: 1rem;
+        .left-section {
+            width: 100px;
+            height: 100px;
+        }
+        .resource-name {
+            font-size: 1.125rem;
+        }
+        .middle-section {
+            flex: 1;
+        }
+        .attrs-container {
+            font-size: .875rem;
+        }
+    }
+}
+
+/*for mobile*/
+@media (max-width: 764px) {
+    .resource-item {
+        padding: .625rem;
+        border-bottom: 1px solid #ededed;
+        .left-section {
+            width: 80px;
+            height: 80px;
+        }
+        .resource-name {
+            font-size: 1rem;
+        }
+        .attrs-container {
+            flex: 1;
+            margin-top: .3125rem;
+        }
+        .right-section {
+            flex: 1;
+        }
+        .price-btn-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .single-attr {
+            font-size: .875rem;
+            color: #979797;
+        }
+        .type-quantity {
+            width: 6.25rem;
+        }
+        .qty-btn {
+            font-size: 1.75rem;
+        }
+        .qty {
+            margin: 0;
+        }
+    }
+}

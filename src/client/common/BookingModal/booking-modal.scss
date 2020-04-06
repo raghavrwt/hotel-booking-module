@@ -1,0 +1,46 @@
+.booking-modal {
+    .booking-header {
+        padding-top: 25px;
+    }
+    .modal-form {
+        width: 56rem;
+        height: 31rem;
+        overflow: auto;
+        &::-webkit-scrollbar { 
+            width: 0 !important
+        }
+    }
+    .value-set {
+        display: flex;
+        flex-wrap: wrap;
+        .react-datepicker-wrapper,
+        &>.input-container {
+            flex: 0 0 calc(24% - 10px);
+            margin-right: 10px;
+        }
+        .set-close {
+            order: 2;
+            margin: 5px;
+        }
+    }
+    .set-attrs {
+        flex: 0 0 calc(100% - 40px);
+        display: flex;
+    }
+    .addons-container {
+        flex: 1;
+        text-align: left;
+        order: 3;
+    }
+    .addon-list {
+        display: flex;
+        flex-wrap: wrap;
+        .addon {
+            flex: 0 0 calc(24% - 10px);
+            margin-right: 10px;
+        }
+    }
+    .book-btn {
+
+    }
+}

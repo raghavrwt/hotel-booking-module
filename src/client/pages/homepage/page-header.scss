@@ -1,0 +1,47 @@
+@import '../../common/colorVars.scss';
+
+.page-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    .page-title {
+        flex: 1;
+        font-size: 2.125rem;
+        color: $text-color;
+    }
+    .search-bar {
+        flex: 0 0 40%;
+        margin-right: 1rem;
+    }
+    .header-button {
+        font-size: 1rem;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+    .back-btn-container {
+        padding: .625rem;
+        padding-right: 1rem;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-right: 1rem;
+        cursor: pointer;
+        color: #3899ec;
+        .back-btn {
+            position: relative;
+            top: -2px;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            right: 0;
+            border-right: 1px solid #ccc;
+            height: 60%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

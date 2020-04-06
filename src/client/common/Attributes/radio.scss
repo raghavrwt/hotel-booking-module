@@ -1,0 +1,7 @@
+.radio-list {
+    display: flex;
+    flex-wrap: wrap;
+    .radio-item {
+        flex: 0 0 33.33%;
+    }
+}

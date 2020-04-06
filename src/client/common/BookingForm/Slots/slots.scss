@@ -1,0 +1,105 @@
+@import '../../colorVars.scss';
+.selected-slot-container {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    margin-bottom: 10px;
+    .slot-title {
+        flex: 1;
+    }
+    .selected-slot {
+        flex: 1;
+    }
+}
+.slot-error {
+    font-size: .875rem;
+    color: $error;
+    margin: .625rem 0;
+}
+.slider-body {
+    padding: 1rem 0;
+    .slot-list {
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .slot-title {
+        margin: 10px;
+        font-weight: 500;
+    }
+    .single-slot {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        flex: 0 0 calc(33.33% - 10px);
+        border: 1px solid #ededed;
+        border-radius: 6px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .selected-slot {
+        border-color: #1390d3;
+        color: #1390d3;
+    }
+    .blocked-slot {
+        color: #ccc;
+        border-color: #ccc;
+        pointer-events: none;
+    }
+    .date-list {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .arrows-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 10px 10px;
+        .slider-arrow {
+            padding: 3px;
+            font-size: 20px;
+            border: 1px solid #ccc;
+        }
+        .left-arrow {
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+        .right-arrow {
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+        .disabled-arrow {
+            opacity: .5;
+            pointer-events: none;
+        }
+    }
+    .slick-list {
+        width: 100%;
+    }
+    .single-date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        flex: 0 0 45px;
+        cursor: pointer;
+    }
+    .date-day {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+    .date-month {
+        font-size: .875rem;
+    }
+    .selected-date {
+        background: #ccc;
+    }
+}
+.slider-btn {
+    position: absolute;
+    bottom: 1rem;
+    width: calc(100% - 2rem);
+    left: 1rem;
+}

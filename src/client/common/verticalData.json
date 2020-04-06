@@ -1,0 +1,36 @@
+{
+    "query": {
+        "1": [
+            {
+                "name": "Location",
+                "type": "DROPDOWN"
+            },
+            {
+                "name": "Start Date",
+                "type": "DATE"
+            },
+            {
+                "name": "End Date",
+                "type": "DATE"
+            },
+            {
+                "name": "Max Guests",
+                "type": "INT"
+            },
+            {
+                "name": "Max Kids",
+                "type": "INT"
+            }
+        ],
+        "2": [
+            {
+                "name": "Location",
+                "type": "DROPDOWN"
+            }
+        ]
+    },
+    "dependantNames": {
+        "1": "",
+        "2": "Person"
+    }
+}

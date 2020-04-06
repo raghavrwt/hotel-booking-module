@@ -1,0 +1,26 @@
+.background-container {
+    width: 100%;
+    min-height: calc(100vh - 280px);
+    margin: auto;
+    background: #f0f0f0;
+    padding: 1rem;
+}
+.page-container {
+    width: 70%;
+    background: #fff;
+    margin: auto;
+    max-width: 1366px;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+/*for mobile*/
+@media (max-width: 764px) {
+    .background-container {
+        padding: 0;
+        min-height: calc(100vh - 110px);
+        .page-container {
+            width: 100%;
+        }
+    }
+}

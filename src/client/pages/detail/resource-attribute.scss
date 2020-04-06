@@ -1,0 +1,29 @@
+.resource-attribute {
+    display: flex;
+    margin-bottom: .625rem;
+    .attribute-name {
+        flex: 0 0 30%;
+    }
+    .attribute-values {
+        flex: 1;
+    }
+    .value-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .value-list-item {
+        margin-right: .3125rem;
+        flex: 0 0 calc(33.33% - .3125rem);
+
+    }
+}
+
+/*for mobile*/
+@media (max-width: 764px) {
+    .resource-attribute {
+        .value-list-item {
+            flex: 0 0 100%;
+            margin-bottom: .3125rem;
+        }
+    }
+}

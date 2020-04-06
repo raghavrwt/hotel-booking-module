@@ -1,0 +1,25 @@
+@import '../../../common/colorVars.scss';
+
+.side-bar {
+    flex: 0 0 200px;
+    height: 100vh;
+    border-right: 1px solid #ededed;
+    position: sticky;
+    top: 0;
+    .main-menu {
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        padding-left: 1.5625rem;
+        background-color: $text-color;
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .left-icon {
+        font-size: 1rem;
+        position: relative;
+        bottom: 1px;
+        margin-right: .3125rem;
+    }
+}

@@ -1,0 +1,35 @@
+.segment {
+    border-radius: 6px;
+    padding: 20px 40px;
+    display: flex;
+    margin-bottom: 1.25rem;
+    background: #fff;
+    box-shadow: 0 2px 0 #dfe5eb;
+    .segment-left {
+        flex: 1;
+        .segment-title {
+            font-size: 1.125rem;
+        }
+        .segment-sub-title {
+            color: #7a8994;
+            font-size: .875rem;
+        }
+    }
+    .segment-body {
+        flex: 2;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-end;
+        margin-right: -1rem;    //to nullify the margin right of right most input
+    }
+    .group-section {
+        flex: 0 0 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .group-delete {
+        align-self: center;
+    }
+}

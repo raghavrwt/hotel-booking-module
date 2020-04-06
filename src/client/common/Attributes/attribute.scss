@@ -1,0 +1,19 @@
+.attribute {
+    flex: 0 0 45%;
+    margin-right: 1rem;
+    &.checkbox-container,
+    &.radio-container {
+        flex: 0 0 100%;
+    }
+    &.date-container {
+        display: flex;
+        flex-direction: column;
+        .react-datepicker-popper {  //to be moved to date-input scss
+            z-index: 2;
+        }
+    }
+    .attribute-label {
+        font-size: 1rem;
+        display: inline-flex;   //for tooltip
+    }
+}

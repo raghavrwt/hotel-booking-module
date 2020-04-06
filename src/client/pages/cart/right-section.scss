@@ -1,0 +1,13 @@
+.cart-right {
+    flex: 0 0 21rem;
+    padding: 0 1rem;
+    .price-container {
+        font-size: 2.625rem;
+        font-weight: 500;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .proceed-btn {
+        border-radius: 6px;
+    }
+}

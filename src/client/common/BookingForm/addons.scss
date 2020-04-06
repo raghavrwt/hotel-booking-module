@@ -1,0 +1,27 @@
+//addons
+.addons-container {
+    position: relative;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    .addon-label {
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    .addon-list {
+        margin-bottom: 2rem;
+    }
+    .addon {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        .addon-name {
+            flex: 1;
+            text-transform: capitalize;
+            margin-right: 5px;
+        }
+        .addon-qty {
+            flex: 1;
+        }
+    }
+}

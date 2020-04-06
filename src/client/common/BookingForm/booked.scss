@@ -1,0 +1,44 @@
+.booked-section {
+    background: #ededed;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    text-align: left;
+    .booked-item {
+        position: relative;
+        margin: 10px 0;
+    }
+    .booked-title {
+        font-weight: 500;
+        font-size: 1.125rem;
+        text-align: left;
+        margin-bottom: .3125rem;
+    }
+    .attrs-section {
+        display: flex;
+        flex-wrap: wrap;
+        .single-attr {
+            flex: 0 0 calc(33.33% - 10px);
+            margin-right: 10px;
+            text-align: left;
+            padding: 5px 0;
+        }
+    }
+    .date-section {
+        font-size: 1rem;
+        padding-right: 2rem;
+    }
+    .delete-booking {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        cursor: pointer;
+        color: #333;
+        font-size: 1rem;
+        padding: 5px;
+        border-radius: 4px;
+        &:hover {
+            background: #d5d5d5;
+        }
+    }
+}

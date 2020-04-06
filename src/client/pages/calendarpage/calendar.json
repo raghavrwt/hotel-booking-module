@@ -1,0 +1,41 @@
+{
+    "calendarName": "Reservation Calendar",
+    "location": [
+        {
+            "id": 1,
+            "title": "ANDHERI"
+        },
+        {
+            "id": 1,
+            "title": "BORIVALI"
+        },
+        {
+            "id": 1,
+            "title": "MALAD"
+        }
+    ],
+    "resource": [
+        {
+            "id": -1,
+            "title": "All"
+        },
+        {
+            "id": 1,
+            "title": "AC Room",
+            "qty": 4
+        },
+        {
+            "id": 2,
+            "title": "Deluxe Room",
+            "qty": 5
+        },
+        {
+            "id": 3,
+            "title": "Semi Deluxe Room",
+            "qty": 6
+        }
+    ],
+    "baseTimeSlot": 1,
+    "timeSlotUnit": "day",
+    "calendarType": "dayWise"
+}

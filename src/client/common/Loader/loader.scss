@@ -1,0 +1,118 @@
+@import './keyframe.scss';
+$website-color: #824cff;
+$retail-color: #0086ff;
+$omni-color-primary: #437dff;
+.omni-splash-loader {
+	position: relative;
+	display: -webkit-box;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	.loader-circle {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		border-radius: 50%;
+		box-shadow: inset 0 0 0 1px transparent;
+	}
+	.loader-line-mask {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		overflow: hidden;
+		-webkit-mask-image: -webkit-linear-gradient(top, #000, rgba(0, 0, 0, 0));
+		mask-image: -webkit-linear-gradient(top, #000, rgba(0, 0, 0, 0));
+		-webkit-animation: rotate 1.2s infinite linear;
+		-moz-animation: rotate 1.2s infinite linear;
+		-o-animation: rotate 1.2s infinite linear;
+		animation: rotate 1.2s infinite linear;
+	}
+	.loader-line {
+		border-radius: 50%;
+	}
+}
+.mobile-loader {
+	background-color: transparent;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	.svg-wrapper {
+		background: #fff;
+		width: 43px;
+		height: 43px;
+		margin: 0 Auto;
+		padding: 5px;
+		border-radius: 50%;
+		position: absolute;
+		top: calc(50% - 21px);
+		left: calc(50% - 21px);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.1);
+	}
+	svg:not(:root) {
+		overflow: hidden;
+	}
+	.circle {
+		border-radius: 50%;
+		stroke: #1390d3;
+		fill: none;
+		stroke-width: 2.5px;
+		stroke-dashoffset: -2.669em;
+		stroke-dasharray: 2.669em;
+		animation: loader 1.4s linear infinite;
+		transform: rotate(-90deg);
+		transform-origin: 50%;
+		position: relative;
+	}
+}
+@mixin stroke($color) {
+	.circle {
+		stroke: $color;
+	}
+}
+
+@mixin boxShadow($color) {
+	.loader-line {
+		box-shadow: inset 0 0 0 2.5px $color;
+	}
+}
+
+.website {
+	.mobile-loader {
+		@include stroke($website-color);
+	}
+	.omni-splash-loader {
+		@include boxShadow($website-color);
+	}
+}
+.retail {
+	.mobile-loader {
+		@include stroke($retail-color);
+	}
+	.omni-splash-loader {
+		@include boxShadow($retail-color);
+	}
+} 
+.omni {
+	.mobile-loader {
+		@include stroke($omni-color-primary);
+	}
+	.omni-splash-loader {
+		@include boxShadow($omni-color-primary);
+	}
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}

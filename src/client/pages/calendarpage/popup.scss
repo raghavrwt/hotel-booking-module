@@ -1,0 +1,16 @@
+.men {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+.men-item {
+  cursor: pointer;
+  padding: 5px;
+  height: 28px;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+.men-item:hover {
+  color: #2980b9;
+  background-color: rgb(245, 250, 250);
+}

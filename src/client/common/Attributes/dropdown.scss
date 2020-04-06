@@ -1,0 +1,23 @@
+.dropdown-wrapper {
+    position: relative;
+    .dropdown-input {
+        display: block;
+        background: #fff;
+        border: 1px solid #c6e2f7;
+        height: 36px;
+        padding: 0 8px;
+        border-radius: 6px;
+        width: 100%;
+        -webkit-appearance: none;
+        outline: none;
+    }
+    .dropdown-item {
+
+    }
+    .dropdown-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+}

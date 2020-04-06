@@ -1,0 +1,115 @@
+[
+    {
+        "calendarName": "Reservation Calendar",
+        "location": [
+            {
+                "id": 1,
+                "title": "ANDHERI"
+            },
+            {
+                "id": 2,
+                "title": "BORIVALI"
+            },
+            {
+                "id": 3,
+                "title": "MALAD"
+            }
+        ],
+        "resource": [
+            {
+                "id": 4,
+                "title": "AC Room",
+                "qty": 4,
+                "partOf": [
+                    1
+                ],
+                "dependantOn": null
+            },
+            {
+                "id": 5,
+                "title": "Deluxe Room",
+                "qty": 5,
+                "partOf": [
+                    2
+                ],
+                "dependantOn": null
+            },
+            {
+                "id": 6,
+                "title": "Semi Deluxe Room",
+                "qty": 6,
+                "partOf": [
+                    1,
+                    2,
+                    3
+                ],
+                "dependantOn": null
+            }
+        ],
+        "baseTimeSlot": 1,
+        "timeSlotUnit": "DAY"
+    },
+    {
+        "calendarName": "Reservation Calendar",
+        "location": [
+            {
+                "id": 1,
+                "title": "ANDHERI"
+            },
+            {
+                "id": 2,
+                "title": "BORIVALI"
+            },
+            {
+                "id": 3,
+                "title": "MALAD"
+            }
+        ],
+        "resource": [
+            {
+                "id": 4,
+                "title": "Hair Cut",
+                "qty": 4,
+                "partOf": [
+                    1
+                ],
+                "dependantOn": null
+            },
+            {
+                "id": 5,
+                "title": "Nail spa",
+                "qty": 5,
+                "partOf": [
+                    2,
+                    3
+                ],
+                "dependantOn": null
+            },
+            {
+                "id": 6,
+                "title": "Ravi",
+                "qty": 1,
+                "partOf": [
+                    1
+                ],
+                "dependantOn": [
+                    4,
+                    5
+                ]
+            },
+            {
+                "id": 7,
+                "title": "Manthan",
+                "qty": 1,
+                "partOf": [
+                    1
+                ],
+                "dependantOn": [
+                    5
+                ]
+            }
+        ],
+        "baseTimeSlot": 45,
+        "timeSlotUnit": "MINUTE"
+    }
+]

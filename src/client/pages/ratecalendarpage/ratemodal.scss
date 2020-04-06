@@ -1,0 +1,75 @@
+// .modal {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width:100%;
+//   height: 100%;
+//   background: rgba(0, 0, 0, 0.6);
+//   z-index: 1000;
+
+//   .modal-main {
+//     position:fixed;
+//     background: white;
+//     width: 20%;
+//     height: auto;
+//     top:50%;
+//     left:50%;
+//     transform: translate(-50%,-50%);
+//   }
+// }
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.reserved-tooltip {
+  visibility: hidden;
+}
+
+.reserved-tooltip-on-hover:hover .reserved-tooltip  {    /* Uses the adjacent sibling selector */
+  visibility: visible;  /* Or display: block */
+}
+
+.blocked-tooltip {
+  visibility: hidden;
+}
+
+.blocked-tooltip-on-hover:hover .blocked-tooltip  {    /* Uses the adjacent sibling selector */
+  visibility: visible;  /* Or display: block */
+}
+
+.weekend-tooltip {
+  visibility: hidden;
+}
+
+.weekend-tooltip-on-hover:hover .weekend-tooltip  {    /* Uses the adjacent sibling selector */
+  visibility: visible;  /* Or display: block */
+}
+
+#calendar .price-modal {
+  height: 200px;
+  overflow-y: auto;
+}
+
+#calendar .price-modal::-webkit-scrollbar {
+  display: none; 
+}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #cfcfcf;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-clip: content-box;
+}
+::-webkit-scrollbar-track {
+  display: none;
+}
