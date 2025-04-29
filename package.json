@@ -53,7 +53,7 @@
 		"babel-loader": "^8.0.6",
 		"css-loader": "^3.2.0",
 		"date-fns": "^2.8.1",
-		"email-templates": "^6.0.2",
+		"email-templates": "^12.0.2",
 		"express": "^4.17.1",
 		"handlebars": "^4.4.0",
 		"handlebars-loader": "^1.7.1",
